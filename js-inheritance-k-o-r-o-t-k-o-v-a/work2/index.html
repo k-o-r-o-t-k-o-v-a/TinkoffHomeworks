@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../work2/css/style.css">
+    <script src="../work2/index.js" type="module"></script>
+    <title>Search films</title>
+</head>
+
+<body class="page">
+    <header class="page__header">
+        <div class="container">
+            <div class="header__logo">
+                <img class="img__logo" src="img/logo—tp.png" alt="Тинькофф Прокат">
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="search-box">
+            <div class="container">
+                <div class="main__search-box">
+                    <form class="main__form">
+                        <div class="form__box">
+                            <label class="flex__inner">
+                                <img class="img__lupa" src="img/Union.png" alt="">
+                                <input class="form__inp" id="form__inp" type="text"
+                                    placeholder="Поиск фильмов по жанрам и актерам"/>
+                            </label>
+                        </div>
+                        <div class="form__hints"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="no-results">
+            <div class="container">
+                <h2 class="result__title-nf">Мы не поняли о чем речь ¯\_(ツ)_/¯</h2>
+            </div>
+        </div>
+        <div class="results">
+            <div class="container" id="filmContainer">
+                <h2 class="result__title"></h2>
+                <div class="result__container"></div>
+            </div>
+        </div>
+        <div class="loader in-active" id="loader">
+            <img src="img/loader.png" alt="loader" class="loader__image">
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <p class="footer__text">© 2019 Тинькофф Прокат</p>
+            </div>
+        </div>
+
+    </footer>
+</body>
+
+</html>

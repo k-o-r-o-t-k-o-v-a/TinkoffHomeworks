@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="HTML, CSS, web-programming">
+    <meta name="description" content="Article">
+    <meta name="author" content="SitePoint">
+    <title>Article</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header_wrap">
+        <div class="header">
+            <a href="#">
+                <img src="img/logo.png" alt="Home page" width="215" class="logo">
+            </a>
+            <nav>
+                <ul class="menu">
+                    <li><a href="#a1">Вступление</a></li>
+                    <li><a href="#a2">Основная часть</a></li>
+                    <li><a href="#a3">Заключение</a></li>
+                    <li><a href="#a4">Обратная связь</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="first_screen_wrap">
+        <div class="first_screen wrap">
+            <div class="block">
+                <div class="item">
+                    <div class="picture">
+                        <img class="title_pic" alt="" src="img/title.png" width="600">
+                    </div>
+                    <div class="text">
+                        <h1>Статья</h1>
+                        <h2>Как вёрстка влияет на конверсию сайта?</h2>
+                        <span>Мы нашли ответ!</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <main class="article_wrap">
+        <section class="article wrap">
+            <h3 id="a1">Почему вёрстка - это важно?</h3>
+            <div class="block">
+                <div class="pars">
+                    <div class="block_text">
+                        <p>Вы можете написать интересный текст, придумать цепляющий заголовок, но если статью будет сложно читать, то вы рискуете потерять своих посетителей.
+                            <br> Верстка статьи — это важный элемент, который отвечает за визуальное восприятие материала читателями.
+                        </p>
+                        <p>
+                            Если текст легко читается, то пользователь как минимум не уйдёт с сайта, а как максимум совершит больше <strong>целевых</strong> действий, которые мы от него ожидаем. В случае неправильной верстки текста могут быть затруднения
+                            с выводом ваших статей на лидирующие позиции поисковой выдачи. Таким образом, даже качественная семантика не поможет вам, а поисковые системы при удобном случае могут наложить один из актуальных фильтров. Разумеется, это не
+                            затрагивает 100% сайтов с некорректной версткой, но нельзя игнорировать тот факт, что правильная верстка — это плюс в оптимизации статьи.
+                        </p>
+                        <p>
+                            Давайте рассмотрим возможности, с помощью которых мы создать клиентоориентированный сайт.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="article wrap">
+            <h3 id="a2">Возможности HTML и CSS</h3>
+            <div class="block">
+                <h4 ">Стили</h4>
+                <div class="pars ">
+                    <div class="block_text ">
+                        <p>
+                            Стили текста помогают сделать акцент на том или ином важном аспекте, который мы хотим донести до читателя. Мы можем оформлять текст <em>курсивом</em> <strong>жирностью</strong> и
+                            <u>подчёркиванием</u> без использования CSS стилей. сделать надстрочный и подстрочный текста, например, для формул: H<sub>2</sub>SO<sub>4</sub> и sin
+                            <sup>2</sup>x+cos<sup>2</sup>x=1
+                        </p>
+                    </div>
+                </div>
+                <h4>Цитаты</h4>
+                <div class="pars ">
+                    <div class="block_text ">
+                        <p>Красиво оформленные и вовремя вставленные цитаты также облегчают восприятие текста и вносят ранообразие. Приведём пример оформления цитат:</p>
+                        <p>Известное выражение <q>Лучше поздно, чем никогда</q> впервые встречается в четвертой книге
+                            <cite>Истории римского народа</cite> крупнейшего историка Древнего Рима Тита Ливия.</p>
+                        <p>В книге <cite>Мастер и Маргарита</cite> есть такая цитата:</p>
+                        <blockquote>Никогда ничего не просите! Никогда и ничего, и в особенности у тех, кто сильнее вас. Сами предложат и сами всё дадут!</blockquote>
+                        <br>
+                    </div>
+                </div>
+                <h4>Списки</h4>
+                <div class="pars ">
+                    <div class="block_text ">
+                        <p>
+                            Использование списков отлично решит вопрос структурирования и сжатия информации. Список намного проще понять, пользователю не приходится парсить в голове абзац на пункты - за него это уже сделал верстальщик. Списки также можно оформлять всевозможными
+                            способами:
+                        </p>
+                    </div>
+                </div>
+                <div class="item ">
+                    <div class="column ">
+                        <h5>Маркированные списки</h5>
+                        <div class="pars ">
+                            <h6>Маркер - окружность</h6>
+                            <div class="block_text ">
+                                <ul type="circle " class="list ">
+                                    <li>Первое</li>
+                                    <li>Второе</li>
+                                    <li>Третье</li>
+                                </ul>
+                            </div>
+                            <h6>Маркер - красный круг</h6>
+                            <div class="block_text ">
+                                <ul type="disc " class="list redmarkers ">
+                                    <li><a>Первое</a></li>
+                                    <li><a>Второе</a></li>
+                                    <li><a>Третье</a></li>
+                                </ul>
+                            </div>
+                            <h6>Маркер - квадрат</h6>
+                            <div class="block_text ">
+                                <ul type="square " class="list ">
+                                    <li><a>Первое</a></li>
+                                    <li><a>Второе</a></li>
+                                    <li><a>Третье</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column ">
+                        <h5>Нумерованные списки</h5>
+                        <div class="pars ">
+                            <h6>Нумерация - арабская</h6>
+                            <div class="block_text ">
+                                <ol type="1 " class="list ">
+                                    <li><a>Первое</a></li>
+                                    <li><a>Второе</a></li>
+                                    <li><a>Третье</a></li>
+                                </ol>
+                            </div>
+                            <h6>Нумерация - римская</h6>
+                            <div class="block_text ">
+                                <ol type="I " class="list ">
+                                    <li><a>Первое</a></li>
+                                    <li><a>Второе</a></li>
+                                    <li><a>Третье</a></li>
+                                </ol>
+                            </div>
+                            <h6>Нумерация - римская в нижнем регистре</h6>
+                            <div class="block_text ">
+                                <ol type="i " class="list ">
+                                    <li><a>Первое</a></li>
+                                    <li><a>Второе</a></li>
+                                    <li><a>Третье</a></li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h4>Таблица</h4>
+                <div class="pars ">
+                    <div class="block_text ">
+                        <p>
+                            Использование списков отлично решит вопрос структурирования и сжатия информации. Список намного проще понять, пользователю не приходится парсить в голове абзац на пункты - за него это уже сделал верстальщик.
+                    </div>
+                </div>
+                <table>
+                    <caption>Название таблицы</caption>
+                    <colgroup>
+                        <col span="3 " style="background:rgb(140, 240, 227) ">
+                    </colgroup>
+                    <thead>
+                        <tr>
+                            <th>раздел1</th>
+                            <th>раздел2</th>
+                            <th>раздел3</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>данные</td>
+                            <td>данные</td>
+                            <td>данные</td>
+                        </tr>
+                        <tr>
+                            <td>данные</td>
+                            <td>данные</td>
+                            <td>данные</td>
+                        </tr>
+                        <tr>
+                            <td>данные</td>
+                            <td>данные</td>
+                            <td>данные</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        <section class="article wrap ">
+            <h3 id="a3 ">Вывод</h3>
+            <div class="block ">
+                <div class="pars ">
+                    <div class="block_text ">
+                        <p>Данная статья является ознакомительной, более подробную информацию вы можете найти на сайте:
+                            <a class="ref " href="https://www.google.com/ " target="_blank ">www.google.com</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <aside id="a4 " class="form ">
+        <section class="container wrap ">
+            <h3>Обратная связь</h3>
+            <div class="form_inner ">
+                <div class="form_content ">
+                    <div class="form_title_box ">
+                        <div class="form_title ">
+                            Оставить отзыв о статье:
+                        </div>
+                        <div class="form_text ">
+                            Мы готовы меняться ради Вас!
+                        </div>
+                    </div>
+                    <div class="form_box ">
+                        <form>
+                            <div class="form_box_inner ">
+                                <div class="form_box_left ">
+                                    <label>
+                                        ФИО:
+                                        <input type="text ">
+                                    </label>
+                                    <label>
+                                        Контактный телефон:
+                                        <input type="text ">
+                                    </label>
+                                    <label>
+                                        E-mail:
+                                        <input type="text ">
+                                    </label>
+                                </div>
+                                <div class="form_box_right ">
+                                    <label>
+                                        Ваш комментарий:
+                                        <textarea>
+
+                                            </textarea>
+                                    </label>
+                                    <button class="form_btn " type="submit ">Отправить
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </aside>
+    <footer class="footer_wrap ">
+        <div class="footer wrap ">
+            <a href="# ">
+                <img src="img/contacts.png " alt=" " width="45 " class="logo2 ">
+            </a>
+            <p class="footer_p ">
+                Copywright
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>

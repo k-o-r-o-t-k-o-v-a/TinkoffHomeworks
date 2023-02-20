@@ -1,0 +1,316 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #636262;
+    line-height: 1.5;
+    font-size: 1rem;
+}
+
+.header_wrap {
+    background-color: rgb(194, 216, 70);
+}
+
+.wrap {
+    box-sizing: border-box;
+    max-width: 1200px;
+    min-width: 320px;
+    margin: 0 auto;
+    padding: 0px 25px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    max-width: 1330px;
+    margin: 0 auto;
+}
+
+.title_name {
+    display: flex;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 3rem;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+}
+
+.menu li {
+    margin-left: 54px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: rgb(48, 0, 160);
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.menu li a:hover {
+    color: azure;
+}
+
+.first_screen_wrap {
+    background: rgb(35, 187, 162);
+    padding: 75px 0 100px 0;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.picture {
+    width: 50%;
+}
+
+.text {
+    color: rgb(255, 214, 138);
+    width: 47%;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-bottom: 20px;
+    text-indent: 25px;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 3rem;
+    margin-bottom: 80px;
+}
+
+span {
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-bottom: 40px;
+}
+
+.footer_wrap {
+    padding-top: 90px;
+    padding-bottom: 15px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    background-color: rgb(194, 216, 70);
+}
+
+.footer_p {
+    color: black;
+    font-size: 0.74rem;
+    font-weight: 700;
+}
+
+.article_wrap {
+    padding: 50px;
+}
+
+.article {
+    max-width: 900px;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    color: rgb(35, 187, 162);
+    margin-bottom: 20px;
+    /*меняет отступ после заголовка*/
+}
+
+.block {
+    margin-bottom: 80px;
+    /*меняет отступ после блока*/
+}
+
+.pars {
+    margin-bottom: 0px;
+    /*меняет отступ после параграфа в любом блоке*/
+}
+
+.block_text {
+    margin-bottom: 30px;
+    /*меняет отступ после каждоготекста*/
+}
+
+h4 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 3rem;
+    margin-bottom: 5px;
+    text-indent: 25px;
+}
+
+h5 {
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-indent: 25px;
+}
+
+h6 {
+    font-weight: 500;
+    font-size: 13px;
+    margin-bottom: 10px;
+    text-indent: 25px;
+}
+
+table {
+    border: 1px solid grey;
+    width: 500px
+}
+
+th {
+    border: 1px solid grey;
+}
+
+td {
+    border: 1px solid grey;
+}
+
+p {
+    margin: 0 0 10px;
+    text-indent: 25px;
+    text-align: justify;
+}
+
+.logo2 {
+    border: 2px solid rgb(3, 3, 3);
+    border-radius: 10px;
+}
+
+.container {
+    padding-left: 30px;
+}
+
+.form_inner {
+    padding-top: 30px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: rgb(233, 233, 233);
+    background-image: url("../img/form.png");
+    min-height: 400px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.form_title_box {
+    max-width: 520px;
+    padding-left: 140px;
+    position: relative;
+}
+
+.form_title {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 24px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.form_text {
+    max-width: 400px;
+}
+
+.form_box {
+    max-width: 550px;
+    padding-top: 35px;
+}
+
+.form_box_inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form_box_left {
+    max-width: 150px;
+    width: 100%;
+}
+
+.form_box_right {
+    max-width: 350px;
+    width: 100%;
+}
+
+.form_box_inner label,
+.form_box_inner input,
+.form_box_inner textarea {
+    display: block;
+    width: 100%
+}
+
+.form_box_inner label {
+    line-height: 22px;
+    color: rgb(3, 3, 3);
+}
+
+.form_box_inner input {
+    margin-bottom: 9px;
+    margin-top: 3px;
+    height: 35px;
+    border: 1px solid #a8a6a6;
+    border-radius: 10px;
+    padding: 0px 10px;
+}
+
+.form_box_inner textarea {
+    border: 1px solid #a8a6a6;
+    border-radius: 10px;
+    padding: 10px;
+    height: 180px;
+    resize: none;
+}
+
+.form_btn {
+    background-color: rgb(255, 214, 138);
+    padding: 5px 10px;
+    border: 1px solid rgb(255, 214, 138);
+    margin: 10px 0px;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+.redmarkers {
+    list-style: none;
+}
+
+.redmarkers li:before {
+    color: red;
+    content: "\2022";
+    padding-right: 10px;
+    font-weight: bold;
+}
+
+.list {
+    text-indent: 25px;
+}
+
+.ref {
+    font-weight: 500;
+    color: #3a3a3a;
+}
+
+.title_pic {
+    border-radius: 10px;
+}
